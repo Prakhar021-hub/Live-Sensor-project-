@@ -1,0 +1,3 @@
+pymongo==4.2.0
+
+-e . ## this is called editable mode and its work is to triger the setup.py file

@@ -1,0 +1,13 @@
+prefix=C:/Sensor live/venv/Library
+exec_prefix=C:/Sensor live/venv/Library
+libdir=C:/Sensor live/venv/Library/lib
+sharedlibdir=C:/Sensor live/venv/Library/lib
+includedir=C:/Sensor live/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
